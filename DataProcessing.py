@@ -1,7 +1,7 @@
 class TransactionError(Exception):
     pass
 
-class InMemoryDatabase:
+class InMemoryDB:
     def __init__(self):
         self.db = {}
         self.transaction_active = False
@@ -37,7 +37,7 @@ class InMemoryDatabase:
         self.transaction_changes = {}
 
 if __name__ == "__main__":
-    inmemoryDB = InMemoryDatabase()
+    inmemoryDB = InMemoryDB()
 
     try:
         print(inmemoryDB.get("A"))  # Should print None
