@@ -10,3 +10,5 @@ This project implements an in-memory key-value database in Python that supports 
 
 ```bash
 python3 DataProcessing.py
+```
+To make this an official assignment in the future, some improvements could be made for clarity and grading efficiency. A few test cases would be nice for the students to know if their output is being displayed correctly. A little more clarification on a few parts such as the get() function would be nice. The instructions should confirm that get() should not return uncommitted changes. Other than that this assignment is good for students to understand the general aspect of an In-memory database with transaction support.
